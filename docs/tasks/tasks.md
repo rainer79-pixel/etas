@@ -113,4 +113,4 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
 | Backend | `vat_setting` CRUD (`GET /api/settings/vat`, `PUT /api/settings/vat/user/{userId}`); kasutajate haldus (`GET /api/user`, `POST /api/user`, `PUT /api/user/{userId}`, `PUT /api/user/{userId}/status`) | 3 |
-| Frontend | `SettingsView` — kasutajate tabel + lisamine, KM määra muutmine, tootegruppide haldus | 3 |
+| Frontend | `SettingsView` — kasutajate tabel + lisamine, KM määra muutmine, tootegruppide haldus; `SettingsUserModal` — kasutaja muutmine | 3 |
