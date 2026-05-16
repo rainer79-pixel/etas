@@ -2,7 +2,7 @@
 
 Arenduse järjekord: feature kaupa, **backend enne frontend**.
 Raskusskaalal 1–5: **1** = triviaalne → **5** = väga keeruline.
-Branchid võetakse masterist: `git checkout -b task-XX-nimi`
+Branchid võetakse masterist: `git checkout -b task-XX`
 
 ---
 
@@ -18,7 +18,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 1. Login ja autentimine
-**Branch:** `task-01-login`
+**Branch:** `task-01`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
@@ -28,7 +28,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 2. Dashboard
-**Branch:** `task-02-dashboard`
+**Branch:** `task-02`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
@@ -38,7 +38,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 3. Edasimüüjad
-**Branch:** `task-03-sellers`
+**Branch:** `task-03`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
@@ -48,7 +48,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 4. Tootegrupid
-**Branch:** `task-04-product-types`
+**Branch:** `task-04`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
@@ -58,7 +58,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 5. Edasimüüja seaded
-**Branch:** `task-05-seller-settings`
+**Branch:** `task-05`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
@@ -68,7 +68,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 6. Excel import
-**Branch:** `task-06-excel-import`
+**Branch:** `task-06`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
@@ -78,7 +78,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 7. Teenustasu arvutus
-**Branch:** `task-07-fee-calculation`
+**Branch:** `task-07`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
@@ -88,7 +88,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 8. Aruannete eksport
-**Branch:** `task-08-report-export`
+**Branch:** `task-08`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
@@ -98,7 +98,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 9. Arvete kontroll
-**Branch:** `task-09-invoice`
+**Branch:** `task-09`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|
@@ -108,7 +108,7 @@ Kõik entiteedid luuakse korraga enne taske. Entiteedid on puhta andmestruktuuri
 ---
 
 ## 10. Seadistused
-**Branch:** `task-10-settings`
+**Branch:** `task-10`
 
 | Kiht | Sisaldab | Raskus |
 |------|----------|--------|

@@ -16,6 +16,20 @@ Kasutaja annab task numbri argumendina (nt `01`, `02`, `03`). Kui argumenti ei a
 6. **Vaata** kõiki vastavaid Balsamiq PNG faile kaustast `docs/balsamiq/views/` — identifitseeri vaated selle task-i põhjal
 7. **Loe** `database/2_create.sql` — vajadusel tabelite struktuur
 
+## Branch loomine
+
+Enne planeerimisdokumendi kirjutamist tuleta kasutajale meelde, et kogu taski töö — nii arendus kui dokumentatsioon — käib eraldi branch-is. Masterisse ei commitita midagi enne kui task on täielikult valmis.
+
+Paluda kasutajal käivitada:
+```
+git checkout master
+git pull
+git checkout -b task-XX
+```
+kus `XX` on tasknumber, nt `task-01`, `task-02`.
+
+Kinnita kasutajalt et branch on loodud enne kui jätkad dokumendi genereerimisega.
+
 ---
 
 ## Dokumendi loomine
@@ -213,5 +227,6 @@ data() {
 1. Näita kasutajale loodud faili asukoht
 2. Too välja peamised küsimused või kohad mis vajavad täpsustamist
 3. Küsi kas dokument on heaks kiidetud enne kui arendusega alustada
+4. Tuleta meelde: kogu arendus käib selles branch-is — masterisse läheb kõik koos alles siis kui task on täielikult valmis (backend + frontend + dokumentatsioon)
 
 **NB!** Kui `docs/tasks/task-XX-nimi/` kataloog või fail juba eksisteerib, küsi kasutajalt enne ülekirjutamist.
